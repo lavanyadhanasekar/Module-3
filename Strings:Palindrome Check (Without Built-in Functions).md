@@ -14,7 +14,18 @@ To write a Python program to check whether the string `"google"` is a **palindro
 ## 🧾 Program
 
 Add code here
-
+```
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+```
 ## Output
 
+<img width="652" height="193" alt="image" src="https://github.com/user-attachments/assets/3bb8b980-d075-48eb-806b-4fe698f2f4f2" />
+
+
 ## Result
+
+Thus the program executed successfully.
